@@ -15,5 +15,5 @@ RUN yarn install
 # Bundle app source
 COPY . .
 
-EXPOSE 3000
-CMD [ "npm","start" ]
+#EXPOSE 3000
+CMD [ "npm","start","&&","sleep","999d" ]

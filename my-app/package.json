@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://backend:8080",
+  "proxy": "http://node-app-service:80",
   "eslintConfig": {
     "extends": "react-app"
   },
