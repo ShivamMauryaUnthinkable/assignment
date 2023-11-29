@@ -7,10 +7,10 @@ const app = express(),
 
 
 const db = mysql.createConnection({
-  host: "list1.mysql.database.azure.com",
+  host: "xxxxxxxxx",
   port: 3306,
-  user: "shivam",
-  password: "AEC18@mavihs",
+  user: "xxxxx",
+  password: "xxxxxxx",
   database: "list",
 
 });
